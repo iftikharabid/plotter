@@ -6,6 +6,7 @@ import time
 import sys
 
 xaxis_range = 300
+#text added
 values1=[]
 values1 = [0 for x in range(xaxis_range)]
 values2=[]
