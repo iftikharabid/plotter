@@ -5,7 +5,7 @@ from pylab import *
 import time
 import sys
 
-xaxis_range = 500
+xaxis_range = 200
 values1=[]
 values1 = [0 for x in range(xaxis_range)]
 values2=[]
