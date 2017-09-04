@@ -25,21 +25,11 @@ def LiveGraph(arg):
     #line1[0].set_data(xaxis, pylab.array(values[-100:]))
 def SignalGenerator(arg):
     global values1, values2
-    temp1 =  temp2 =  temp3 = temp4 =  temp5 = temp6 = 0
 
     randnum1 = random()*2-1
-    randum2 = random()
-
-    temp6 = temp5
-    temp5 = temp4
-    temp4 = temp3
-    temp3 = temp2
-    temp2 = temp1
-    temp1 = (randum2 + temp1 + temp2 + temp3 + temp4 + temp5 + temp6)/7
-    randum2 = random()
-
+    randum2 = (random()*0.02)+0.5
     values1.append(randnum1)
-    values2.append(temp1)
+    values2.append(randum2)
 
 fig = pylab.figure()
     #Set Timers
