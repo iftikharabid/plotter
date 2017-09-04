@@ -6,8 +6,7 @@ import time
 import sys
 
 xaxis_range = 300
-#text added
-#line 2 added
+
 values1=[]
 values1 = [0 for x in range(xaxis_range)]
 values2=[]
@@ -26,12 +25,7 @@ def LiveGraph(arg):
     #line1[0].set_data(xaxis, pylab.array(values[-100:]))
 def SignalGenerator(arg):
     global values1, values2
-    temp1 = 0
-    temp2 = 0
-    temp3 = 0
-    temp4 = 0
-    temp5 = 0
-    temp6 = 0
+    temp1 =  temp2 =  temp3 = temp4 =  temp5 = temp6 = 0
 
     randnum1 = random()*2-1
     randum2 = random()
